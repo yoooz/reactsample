@@ -1,5 +1,8 @@
 # (写経)猫耳でもわかるフロントエンド開発環境構築
 
+### environment
+v14.4.0
+
 ### install dependencies
 $ npm install (--save-dev) module
 

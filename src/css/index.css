@@ -1,0 +1,17 @@
+:root {
+    --primary-color: skyblue; /* 変数は--から始める必要がある */
+}
+
+
+html {
+  color: var(--primary-color);
+  font-size: 0.9rem;
+}
+
+.foo {
+    color: white;
+
+    & .bar { /* ネスト記法で .bar のスタイルを追加 */
+        color: blue;
+    }
+}
